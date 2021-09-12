@@ -2,14 +2,13 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: "Montserrat", sans-serif;
+    font-family: 'Oleo Script', cursive;
 }
-
-.container {}
 
 .header {
     max-width: 1200px;
     margin: auto;
+    min-height: 100vh;
 }
 
 
@@ -20,6 +19,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 10px;
+    border-bottom: 1px solid #2222;
 }
 
 .nav-ul {
@@ -37,6 +37,10 @@ nav {
     font-size: 1.2rem;
     text-decoration: none;
     color: #000;
+}
+
+.nav-link:hover {
+    color: #a16048;
 }
 
 .logo img {
@@ -81,7 +85,7 @@ nav {
 .hero .left .sub-heading {
     font-size: 1rem;
     text-transform: uppercase;
-    color: #bd7e52;
+    color: #000;
     font-weight: 700;
     padding: 10px 0px;
 }
@@ -102,8 +106,8 @@ nav {
     font-weight: 700;
     font-size: 1.2rem;
     background: transparent;
-    color: #a16048;
-    border: 2px solid #a16048;
+    color: #000;
+    border: 2px solid #fdcb00;
     border-radius: 3px;
     margin-top: 20px;
     cursor: pointer;
@@ -111,14 +115,12 @@ nav {
 }
 
 .hero .left .hero-btn .action-btn:hover {
-    background: #a16048;
-    color: #fff;
+    background: #fdcb00;
 }
 
 .hero .right img {
     width: 100%;
-    max-width: 700px;
-    transform: scaleX(-1);
+    max-width: 800px;
 }
 
 
@@ -195,8 +197,6 @@ nav {
 
 /* Gallery style */
 
-.gallery {}
-
 .gallery-heading {
     text-align: center;
     text-transform: capitalize;
@@ -225,6 +225,9 @@ nav {
     max-width: 500px;
 }
 
+
+/* Weekly specials  */
+
 .weekly-specials {
     background: #000;
     min-height: 80vh;
@@ -234,7 +237,7 @@ nav {
     text-align: center;
     text-transform: capitalize;
     font-weight: 400;
-    color: #a16048;
+    color: #fdcb00;
     letter-spacing: 5px;
     line-height: 2.5rem;
     padding: 20px;
@@ -289,10 +292,10 @@ nav {
     max-width: 1000px;
     margin: auto;
     text-align: center;
-    font-size: .9rem;
+    font-size: 1rem;
     line-height: 1.8rem;
     display: block;
-    color: #000;
+    color: #555;
 }
 
 .splide-user {
